@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        menu
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Get Bootstrap from here: http://getbootstrap.com/getting-started/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script type="text/javascript" src="/js/app.js"></script>
+
+
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="logo-box">
+           <a href="index.html">
+                 <img src="images/mhm_logo.png" style="width: 60px;">
+            </a>
+        </div>
+        <a id="nav-toggle" href='#' onclick="openNav()">
+            <span></span>
+        </a>
+    </div>
+
+    <!--overlay-->
+    <div id="nav" class="overlay">
+        <div class="overlay-content">
+            <a href="/index.html">home</a>
+            <a href="/menu.html" style="background-color: black">menu</a>
+            <a href="/specials.html">specials</a>
+            <a href="/our-story.html">our story</a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="page-header" style="margin-top: 100px;">
+            <h2> Menu </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="images/menu_banner.PNG" style="width: 100%;">
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-4">
+                <img src="images/breakfast_img.jpg" style="width: 100%;">
+                <h4>Breakfast</h4>
+                <h5>English Breakfast</h5>
+                <p>
+                    Two sunny side eggs, beans, two sausage links, sauteed mushrooms, two pan fried tomatoes with a side of toast
+                </p>
+                <p>
+                    $9.00
+                </p>
+                <h5>Shakshuka</h5>
+                <p>
+                    Two eggs sauteed with onions, bell peppers and cherry tomatoes served with greek yogurt and naan
+                </p>
+                <p>
+                    $12.50
+                </p>
+                <h5>King for a Day</h5>
+                <p>
+                    Fresh fruit served with oatmeal and croissaint. Get with Turkish Coffee for only $2.00 more.
+                </p>
+                <p>
+                    $9.50
+                </p>
+                <img src="images/soup_img.jpg" style="width: 100%;">
+                <h4>Soup</h4>
+                <h5>Bouillabaisse</h5>
+                <p>
+                    Savory french soup served with fresh local fish in a sublime sauce of orange peel, saffron and fennel.
+                </p>
+                <p>
+                    $7.00
+                </p>
+                <h5>Chickpea Stew</h5>
+                <p>
+                    A comforting tomato based stew over rice.
+                </p>
+                <p>
+                    $7.00
+                </p>
+                <h5>Soup of the Day</h5>
+                <p>
+                    Check out today's special <a id="special" href="specials.html"> here </a>
+                </p>
+                <p>
+                    $9.50
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h4>Shareables</h4>
+                <h5>Zucchini Chips</h5>
+                <p>
+                    Fried chips with a side of bleu cheese or ranch.
+                </p>
+                <p>
+                    $8.00
+                </p>
+                <h5>Chickpea Gyros</h5>
+                <p>
+                    4 small gyros with chickpeas served around a yogurt dip
+                </p>
+                <p>
+                    $9.00
+                </p>
+                <h5>Sweet Potato Fries</h5>
+                <p>
+                    Freshly made sweet potato fries served with aioli sauce, honey mustard and bleu cheese.
+                </p>
+                <p>
+                    $7.00
+                </p>
+                <h5>Cheese Plate</h5>
+                <p>
+                    Classic cheese sampler plate with herb-crusted goat cheese, firm Parmigiano-Reggiano, and brie served with red grapes and an assortment of crackers.
+                </p>
+                <p>
+                    $7.50
+                </p>
+                <img src="images/dinner_img.jpg" style="width: 100%;">
+                <h4>Dinner</h4>
+                <h5>Fresh Pasta</h5>
+                <p>
+                    Fresh tomatoes and mushrooms served over angel Hair pasta made in house drizzled with olive oil.
+                </p>
+                <p>
+                    $12.50
+                </p>
+                <h5>Shrimp Enchilada</h5>
+                <p>
+                    3 Enchiladas with some shrimps.
+                </p>
+                <p>
+                    $9.00
+                </p>
+                <h5>Catch of the Day</h5>
+                <p>
+                    Whole roasted fish freshly caught with a side of roasted vegetables.
+                </p>
+                <p>
+                    $9.50
+                </p>
+                <h4>Bakery</h4>
+                <h5>Cakes</h5>
+                <p>
+                    Our tea cakes and mini-cakes are freshly baked each morning with a hint of sugar and a lot of love
+                </p>
+                <p>
+                    $4.50
+                </p>
+                <h5>Pastries</h5>
+                <p>
+                    French style pastries are a delicious part of anyone's day
+                </p>
+                <p>
+                    $3.50
+                </p>
+                <h5>Macaroons</h5>
+                <p>
+                    Our famous macaroons are world renowned--come find out why.
+                </p>
+                <p>
+                    $2.50/ea
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/coffee_img.jpg" style="width: 100%;">
+                <h4>Coffee</h4>
+                <h5>Black</h5>
+                <p>
+                    sm $2.50 | med $3.00 | lg $4.00
+                </p>
+                <h5>French Press</h5>
+                <p>
+                    sm $3.50 | med $4.00 | lg $4.50
+                </p>
+                <h5>Cubano</h5>
+                <p>
+                    sm $3.50 | med $4.00 | lg $4.50
+                </p>
+                <h5>Latte</h5>
+                <p>
+                    sm $3.00 | med $3.50 | lg $4.00
+                </p>
+                <h5>Turkish</h5>
+                <p>
+                    sm $4.00 | med $5.50 | lg $6.00
+                </p>
+                <h4>Tea</h4>
+                <h5>Black, White, Green, Herbal</h5>
+                <p>
+                    sm $2.50 | med $3.50 | lg $4.00
+                </p>
+                <h5>Chai</h5>
+                <p>
+                    sm $3.50 | med $4.00 | lg $5.00
+                </p>
+                <img src="images/wine_img.PNG" style="width: 100%;">
+                <h4>Wine</h4>
+                <h5>House Red</h5>
+                <p>
+                    glass $4.00 | bottle $12.00
+                </p>
+                <h5>House White</h5>
+                <p>
+                    glass $3.50 | bottle $10.00
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr width=90% align=center size=3>
+        <p> &#169; 2016 Mhm Cafe | All Rights Reserved </p>
+    </footer>
+</body>
+
+</html>
